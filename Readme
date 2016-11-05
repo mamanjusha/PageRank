@@ -1,0 +1,32 @@
+Purpose of this project is to implement Google page rank algorithm.
+More details about algorithm can be found here : https://en.wikipedia.org/wiki/PageRank
+
+Classes description
+
+PageRankCalculator.java
+This is the main class to calculate page rank. This class collects pages, relation between pages and 
+number of iterations to be applied on page rank formula and calculates the page rank.
+
+Damping factor considered is 0.85
+
+Page.java
+Model class for Page
+
+Constants.java
+
+Class to hold all static final constants
+
+Input format
+File name : args[0]
+Number of iterations : args[1]
+
+Sample input file name : pageInput.txt
+
+3
+0 1 1
+1 0 1
+1 0 0
+
+
+
+
